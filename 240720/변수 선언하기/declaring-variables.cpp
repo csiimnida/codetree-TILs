@@ -7,7 +7,7 @@ int main() {
     char b;
     a = 3;
     b = 'C';
-    cout << a\n;
+    cout << a<<"\n";
     cout << b;
     return 0;
 }

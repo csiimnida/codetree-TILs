@@ -5,7 +5,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     string a,b;
     cin >> a >> b;
-    cout << a "\n" << b;
+    cout << a << "\n" << b;
     
     return 0;
 }

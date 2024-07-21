@@ -7,6 +7,6 @@ int main() {
     cin >> a;
     cin.get();
     cin >> b;
-    cout << ab;
+    cout << a << "" << b;
     return 0;
 }

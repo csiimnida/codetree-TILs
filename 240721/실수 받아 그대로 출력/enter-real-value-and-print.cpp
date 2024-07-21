@@ -6,6 +6,6 @@ int main() {
     double a;
     cin >> a;
     cout.precision(2);
-    cout << a;
+    cout << a << endl;
     return 0;
 }

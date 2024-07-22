@@ -6,6 +6,7 @@ int main() {
     int a,b;
     a += 87;
     b %= 10;
+    cin >> a >> b;
     cout << a <<"\n" << b;
     return 0;
 }

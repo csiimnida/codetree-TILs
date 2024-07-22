@@ -6,10 +6,10 @@ int main() {
     int a,b;
     double c;
     cin >> a >> b;
-    c = (a+b)/(a-b);
-    
+    c = (a+b)%(a-b);
+    cout << (a+b)/(a-b);
     cout << fixed;
-    cout.precision(2);
-    cout << c << endl;
+    cout.precision(4);
+    cout <<c;
     return 0;
 }

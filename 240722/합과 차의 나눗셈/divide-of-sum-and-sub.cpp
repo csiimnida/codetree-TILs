@@ -8,8 +8,6 @@ int main() {
     cin >> a >> b;
     c = (a+b)%(a-b);
     cout << (a+b)/(a-b);
-    cout << fixed;
-    cout.precision(4);
-    cout <<c;
+    cout<<c;
     return 0;
 }

@@ -8,7 +8,7 @@ int main() {
     if (a%3 ==0){
         cout << "YES";
     }else {
-        cout << "NO"
+        cout << "NO";
     }
     cout << "\n";
         if (a % 5 == 0){

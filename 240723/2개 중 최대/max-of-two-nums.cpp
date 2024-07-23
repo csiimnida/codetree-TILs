@@ -7,7 +7,7 @@ int main() {
     int c;
 
     cin >> a >> b;
-    c = a > b ? a :b
+    c = a > b ? a : b;
     cout << c;
     return 0;
 }

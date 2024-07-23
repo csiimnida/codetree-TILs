@@ -8,7 +8,7 @@ int main() {
     if (a >= 80){
         cout << "pass"; 
     }else{
-        cout << 100 - a << " more score";
+        cout << 80 - a << " more score";
     }
     return 0;
 }

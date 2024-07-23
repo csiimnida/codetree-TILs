@@ -8,7 +8,7 @@ int main() {
     if (a == 100){
         cout << "pass";
     }else{
-        cout << " failure";
+        cout << "failure";
     }
     return 0;
 }

@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     int a,b,c,d;
-    cin >> a >> b >> c >> d;\
+    cin >> a >> b >> c >> d;
     count << (a > c && b > d);
-    
+
     return 0;
 }

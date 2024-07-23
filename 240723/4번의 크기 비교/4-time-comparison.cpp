@@ -6,7 +6,7 @@ int main() {
     int a,b,c,d,e;
     cin >> a >> b >> c >> d >> e;
     cout << (a > b);
-    cout << "\n" << (a > b);
+    cout << "\n" << (a > c);
     cout << "\n" << (a > d);
     cout << "\n" << (a > e);
     return 0;

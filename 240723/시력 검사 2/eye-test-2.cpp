@@ -5,7 +5,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     double a;
     cin >> a;
-    if (a >= 1.0){
+    if (a == 1.0){
         cout << "High";
     }else if (a >= 5.0){
         cout << "Middle";

@@ -8,7 +8,7 @@ int main() {
     cin >> a >> b;
     c = (10000*b)/(a* a);
     cout << fixed;
-    cout.precision(1);
+    cout.precision(0);
     cout << c;
     if(c >= 25){
         cout << "\nobesity";

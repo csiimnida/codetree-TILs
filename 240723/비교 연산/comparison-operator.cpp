@@ -6,12 +6,12 @@ int main() {
 
     int a, b;
     cin >> a >> b;
-    cout << a >= b;
-    cout << "\n" << a > b;
-    cout << "\n" << a <= b;
-    cout << "\n" << a < b;
-    cout << "\n" << a == b;
-    cout << "\n" << a != b;
+    cout << (a >= b);
+    cout << "\n" << (a > b);
+    cout << "\n" << (a <= b);
+    cout << "\n" << (a < b);
+    cout << "\n" << (a == b);
+    cout << "\n" << (a != b);
 
 
     return 0;

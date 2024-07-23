@@ -16,7 +16,7 @@ int main() {
     }else if (a == 'D'){
         cout << "Effort";
     }else {
-        cout <<"Failure"
+        cout <<"Failure";
     }
     return 0;
 }

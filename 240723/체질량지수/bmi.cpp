@@ -7,7 +7,7 @@ int main() {
     double c;
     cin >> a >> b;
     c = (10000*b)/(a* a);
-    cout << fiexed;
+    cout << fixed;
     cout.precision(1);
     cout << c;
     if(c >= 25){

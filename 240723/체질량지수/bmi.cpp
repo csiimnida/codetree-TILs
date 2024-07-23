@@ -11,7 +11,7 @@ int main() {
     cout.precision(1);
     cout << c;
     if(c >= 25){
-        cout << "\nobesity"
+        cout << "\nobesity";
     }
     return 0;
 }

@@ -10,7 +10,9 @@ int main() {
     }else {
         
         cout << "odd";  
-    }if (a% 2 == 0){
+    }
+    cout << "\n";
+    if (a% 2 == 0){
         cout << "even";
     }else {
         

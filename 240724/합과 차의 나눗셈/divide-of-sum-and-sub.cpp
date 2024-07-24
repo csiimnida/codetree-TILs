@@ -7,9 +7,9 @@ int main() {
     double c,d;
     cin >> a >> b;
     c = (a+b)/(a-b);
-    d = (a+b)%(a-b)
+    d = (a+b)%(a-b);
     cout << fixed;
     cout.precision(4);
-    cout << c;
+    cout << d;
     return 0;
 }

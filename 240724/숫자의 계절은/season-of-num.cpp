@@ -11,7 +11,7 @@ int main() {
         cout << "여름";
     }else if (a >= 9 && a <=11){
         cout << "가을";
-    }else if (a >= 12 && a <=2){
+    }else{
         cout << "겨울";
     }
     return 0;

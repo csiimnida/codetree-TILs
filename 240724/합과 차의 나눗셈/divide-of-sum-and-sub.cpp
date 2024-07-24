@@ -11,19 +11,15 @@ int main() {
     cout << fixed;
     cout.precision(4);
     cout << c;*/
-        int a, b;
+    double a, b;
     
     // Read input
-    std::cin >> a >> b;
+    cin >> a >> b;
     
-    // Calculate sum and difference
-    int sum = a + b;
-    int diff = a - b;
+    // Calculate the result of (a + b) divided by (a - b)
+    double c = (a + b) / (a - b);
     
-    // Calculate the result of sum divided by diff to two decimal places
-    double result = static_cast<double>(sum) / diff;
-    
-    // Output the result formatted to two decimal places
-    std::cout << std::fixed << std::setprecision(2) << result << std::endl;
+    // Output the result formatted to four decimal places
+    cout << fixed << setprecision(4) << c << endl;
     return 0;//13/7
 }

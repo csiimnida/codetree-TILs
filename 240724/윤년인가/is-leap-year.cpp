@@ -6,15 +6,16 @@ int main() {
     int a;
     cin >> a;
     if(a % 4 == 0){
-        cout << "true";
-    }else {
         if(a % 100 == 0 && a % 400 != 0){
-        cout << "true";
+            cout << "false";
 
-        }else {
-        cout << "false";
+        }else{
+        cout << "true";
 
         }
+    }else {
+            cout << "false";
+
     }
     return 0;
 }

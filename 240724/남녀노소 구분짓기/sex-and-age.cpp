@@ -6,14 +6,14 @@ int main() {
     int a,b;
     cin >> a >> b;
     if(a == 0){
-        if(b> 20){
+        if(b>= 20){
             cout << "MAN";
         }else{
             cout << "BOY";
         }
         
     }else {
-        if(b> 20){
+        if(b>= 20){
             cout << "WOMAN";
         }else{
             cout << "GIRL";

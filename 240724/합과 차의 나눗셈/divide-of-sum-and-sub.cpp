@@ -20,6 +20,8 @@ int main() {
     double c = (a + b) / (a - b);
     
     // Output the result formatted to four decimal places
-    cout << fixed << setprecision(4) << c << endl;
+    cout << fixed;
+    cout.precision(2);
+    cout  << c << endl;
     return 0;//13/7
 }
